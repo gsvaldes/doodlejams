@@ -2,26 +2,40 @@
   <Layout>
 
     <!-- Learn how to use images here: https://gridsome.org/docs/images -->
-    <g-image alt="Example image" src="~/favicon.png" width="135" />
+    <!-- <g-image alt="Example image" src="~/favicon.png" width="135" /> -->
 
-    <h1>Hello, world!</h1>
-
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur excepturi labore tempore expedita, et iste tenetur suscipit explicabo! Dolores, aperiam non officia eos quod asperiores
-    </p>
+    <post v-for="edge in $page.posts.edges" :key="edge.node.id">
+      <h2><g-link :to="edge.node.path">{{edge.node.title}}</g-link></h2>
+      <div class="article-meta">{{edge.node.date }}</div>
+      <p>{{edge.node.abstract}}</p>
+    </post>
 
     <p class="home-links">
-      <a href="https://gridsome.org/docs/" target="_blank" rel="noopener">Gridsome Docs</a>
-      <a href="https://github.com/gridsome/gridsome" target="_blank" rel="noopener">GitHub</a>
+      <a href="#" rel="noopener">Instagram</a>
     </p>
 
   </Layout>
 </template>
 
+<page-query>
+query {
+  posts: allPost {
+    edges {
+      node {
+        title
+        abstract
+        image
+        path
+      }
+    }
+  }
+}
+</page-query>
+
 <script>
 export default {
   metaInfo: {
-    title: 'Hello, world!'
+    title: 'Doodlejams'
   }
 }
 </script>
