@@ -825,10 +825,10 @@
     mime-types "^2.1.21"
     slash "^2.0.0"
 
-"@gridsome/transformer-remark@^0.5.0":
-  version "0.5.0"
-  resolved "https://registry.yarnpkg.com/@gridsome/transformer-remark/-/transformer-remark-0.5.0.tgz#e872e91edc316205c507533395b8f1bc985185a1"
-  integrity sha512-uTVkc4BbQIuo9KzA4nchHhADHznLLyMXCTwSZ238xG2f5QWcsLtQRuPnKBID0nFx+9U6nvRE5YoC4FF2DBDU2A==
+"@gridsome/transformer-remark@^0.4.0":
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/@gridsome/transformer-remark/-/transformer-remark-0.4.0.tgz#7b03481e6be5064984fcacc6832693c766745a4d"
+  integrity sha512-rGtZisA0FYg0oaruT50YYtpPLgZobpnRLiH8BYTtT3PGMPIdC618emuRxfY9U3zXCUX2N4uO1JcZzcPVOmClxg==
   dependencies:
     gray-matter "^4.0.2"
     hash-sum "^1.0.2"
@@ -4216,7 +4216,7 @@ gray-matter@^4.0.2:
     section-matter "^1.0.0"
     strip-bom-string "^1.0.0"
 
-gridsome@^0.7.0:
+gridsome@^0.7.11:
   version "0.7.13"
   resolved "https://registry.yarnpkg.com/gridsome/-/gridsome-0.7.13.tgz#7b711b34f9abbdb645948048773ce80381d78b6e"
   integrity sha512-EQMJfoLZpRRWR7gNB9ahkSTIn/QjanvyRJOS853NhhWhfHCgvQOO+DYu7EHvXF0afny43WOSiXOk0WYnolYGUg==
