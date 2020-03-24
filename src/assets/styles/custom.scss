@@ -13,14 +13,22 @@ $theme-colors: (
   gray: #6c757d,
   gray-dark: #343a40,
 
-  primary: #962140,
-  secondary: #6c757d,
+  // primary: #962140,
+  // secondary: #6c757d,
+  // success: #5cb85c,
+  // info: #5bc0de,
+  // warning: #ffc107,
+  // danger: #d9534f,
+  // light: #f8f9fa,
+  // dark: #343a40,
+  primary: #0082FF,
+  secondary: #FF5300,
   success: #5cb85c,
-  info: #5bc0de,
-  warning: #ffc107,
+  info: #FFCD2A,
+  warning: #FF6F2a,
   danger: #d9534f,
-  light: #f8f9fa,
-  dark: #343a40,
+  light: #399CFC,
+  dark: #00478A,
 );
 
 $grid-breakpoints: (
@@ -72,7 +80,8 @@ header > h1 {
  margin-bottom:5px;
  height:15px;
  width:100%;
- background-color: #33242F;
+//  background-color: #FF5300;
+ background-color: #FFCD2A;
 }
 
 .bottom-divider{
@@ -84,13 +93,15 @@ header > h1 {
 }
 
 .nav__link {
-  color: #555;
+  // color: #555;
+  color: #FF5300;
   padding: 10px 15px;
   margin-left: 0;
   font-size: .9rem;
 }
 .nav__link.active--exact {
   background-color: #e7e7e7;
+  // background-color: #399CFC;
 }
 
 article > h2 {
