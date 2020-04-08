@@ -2,7 +2,6 @@
     <Layout>
         <div class="post">
             <h1 class="post__title">{{$page.post.title}}</h1>
-            <p>{{$page.post.author}}</p>
             <p>{{$page.post.date}}</p>
             <div class="post__img">
                 <g-image :src="$page.post.image"/>
@@ -17,7 +16,6 @@ query ($path: String!) {
   post: post (path: $path) {
     title
     content
-    author
     image
   }
 }
