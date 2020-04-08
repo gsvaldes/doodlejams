@@ -1,7 +1,9 @@
 ---
 title: Diabetes and the body
-image: '/uploads/diabetes.jpg'
+date: "2020-03-20T00:00:00.000Z"
+image: /uploads/diabetes.jpg
 abstract: How does diabetes affect your body?
-date: 2020-03-20
 ---
 How does diabetes affect your body?
+
+Let's find out.
