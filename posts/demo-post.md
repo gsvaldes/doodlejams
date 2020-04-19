@@ -1,11 +1,11 @@
 ---
 title: Demo post with DS
 image: './images/office_visitor.jpg'
+tags:
+  - random
 abstract: This is a great cat
 author: Jesus
 date: 2020-03-20
-tags:
-  - random
 ---
 
 This is a great cat. But she always steals my chair.
