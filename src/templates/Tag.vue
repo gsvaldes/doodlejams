@@ -8,8 +8,8 @@
     >
       <g-image :src="edge.node.cover_image" style="width: 100%" />
       <h2>{{edge.node.title}}</h2>
-      <p>{{edge.node.excerpt}}</p>
-      <p>Posted {{edge.node.date}} {{edge.node.timeToRead}} min read</p>
+      <p>{{edge.node.abstract}}</p>
+      <p>Posted {{edge.node.date}}</p>
       <div>
         <g-link
           :to="tag.path"
@@ -34,8 +34,8 @@ query ($id: String!){
             title
             date (format: "MMMM Do, YYYY")
             tags {
-            id
-            path
+                id
+                path
             }
             abstract
             path

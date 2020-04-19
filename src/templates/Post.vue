@@ -6,14 +6,6 @@
       <div class="post__img">
         <g-image :src="$page.post.image" />
       </div>
-      <div>
-        <g-link
-          :to="tag.path"
-          style="padding-right: .25em"
-          v-for="tag in edge.node.tags"
-          :key="tag.id"
-        >#{{tag.id}}</g-link>
-      </div>
       <div v-html="$page.post.content"></div>
     </div>
   </Layout>
@@ -25,11 +17,7 @@ query ($path: String!) {
     title
     content
     image
-    tags {
-      id
-      path
-    }
-}
+  }
 }
 </page-query>
 
