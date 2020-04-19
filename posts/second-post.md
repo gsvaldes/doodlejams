@@ -5,7 +5,11 @@ image: /uploads/diabetes.jpg
 tags:
   - random
 abstract: How does diabetes affect your body?
+tags:
+  - diabetes
+  - health
 ---
+
 How does diabetes affect your body?
 
 Let's find out.
